@@ -1,0 +1,14 @@
+td {
+  border: 1px solid white;
+  padding: 10px;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+}

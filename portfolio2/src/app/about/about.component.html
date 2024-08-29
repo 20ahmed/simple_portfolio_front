@@ -1,0 +1,19 @@
+@if(aboutInfo){
+<div class="container text-center mt-5">
+  <h2>About Me</h2>
+  <div class="mt-3" class="content">
+    <div class="row">
+      <div class="col">
+        <p class="about">
+          {{ aboutInfo.description }}
+        </p>
+      </div>
+      <div class="col img">
+        <img [src]="aboutInfo.image" alt="" />
+      </div>
+    </div>
+  </div>
+  <a [href]="aboutInfo.resumeLink" class="resume-link">CHECK MY RESUME</a>
+</div>
+
+}

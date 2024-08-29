@@ -1,0 +1,30 @@
+@if(homeInfo){
+<div class="home">
+  <div class="row">
+    <div class="col">
+      <section id="intro">
+        <p>
+          I am a <span class="highlight">{{ homeInfo.firstTitle }}</span> and
+          <span class="highlight">{{ homeInfo.secondTitle }}</span> based in
+          {{ homeInfo.address }}.
+        </p>
+        <p>
+          {{ homeInfo.description1 }}
+        </p>
+        <p>
+          {{ homeInfo.description2 }}
+        </p>
+        <a [href]="homeInfo.resumeLink" target="_blank" class="resume-link"
+          >CHECK MY RESUME</a
+        >
+      </section>
+    </div>
+    <div class="col d-flex justify-content-center align-items-center">
+      <section id="image">
+        <img src="{{ homeInfo.image }}" />
+      </section>
+    </div>
+  </div>
+</div>
+
+}

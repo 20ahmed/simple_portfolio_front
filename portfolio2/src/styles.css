@@ -1,0 +1,96 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #1d1d1d;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+.app-content {
+  min-height: calc(100vh - 77px);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  /* padding: 20px; */
+  padding-top: 25px;
+  align-items: center;
+}
+
+header h1 {
+  color: #f5c71a;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 22px;
+}
+
+.home {
+  margin-top: 150px;
+}
+
+#intro {
+  padding: 20px;
+  line-height: 1.6;
+  font-size: 22px;
+  text-align: justify;
+}
+
+.highlight {
+  color: #f5c71a;
+}
+
+.resume-link {
+  color: #f5c71a;
+  text-decoration: none;
+}
+
+#works {
+  padding: 20px;
+}
+
+.work-item {
+  margin-bottom: 20px;
+}
+
+.work-item img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.case-study-link {
+  color: #f5c71a;
+  text-decoration: none;
+}
+
+#contact a {
+  color: #f5c71a;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+h2 {
+  position: relative;
+  width: fit-content;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+h2::before {
+  content: " ";
+  height: 2px;
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 100%;
+  background-color: #f5c71a;
+}

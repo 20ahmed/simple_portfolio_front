@@ -1,0 +1,28 @@
+.about {
+  text-align: justify;
+  padding: 0 30px;
+  font-size: 20px;
+  margin-bottom: 35px;
+  margin-right: -120px;
+}
+
+.content {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  margin-left: 150px;
+  width: 100%;
+}
+
+.img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  width: 340px;
+  height: 340px;
+  border-radius: 50%;
+  border: 5px solid #f5c71a;
+}

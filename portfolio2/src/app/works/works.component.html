@@ -1,0 +1,20 @@
+@if(works){
+<div class="container text-center mt-5">
+  <h2>My Works</h2>
+  <div id="works" class="d-flex justify-content-center flex-wrap">
+    @for(work of works; track $index){
+    <div class="card" style="width: 18rem">
+      <img [src]="work.image" class="card-img-top" alt="..." />
+      <div class="card-body">
+        <h5 class="card-title">{{ work.title }}</h5>
+        <p class="card-text">{{ work.description }}</p>
+      </div>
+      <a [href]="work.link" target="_blank" class="btn btn-primary mb-3"
+        >Github Link</a
+      >
+    </div>
+    }
+  </div>
+</div>
+
+}
